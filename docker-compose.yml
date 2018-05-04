@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  api-playground:
+    image: api-playground
+    build:
+      context: .
+      dockerfile: API-Playground/Dockerfile
